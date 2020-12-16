@@ -1,0 +1,16 @@
+Table: sync_caibian_data
+-------------+----------------------+------+-----+---------+---------
+ Field       | Type                 | Null | Key | Default | Remarks 
+-------------+----------------------+------+-----+---------+---------
+ auto_id     | BIGINT(19)           | NO   | PRI |         |         
+ url         | VARCHAR(1000)        | NO   |     |         | 源链接     
+ title       | VARCHAR(1000)        | YES  |     |         | 标题      
+ website     | VARCHAR(100)         | YES  |     |         | 来源      
+ content     | MEDIUMTEXT(16777215) | YES  |     |         | 文章内容    
+ pubtime     | DATETIME(19)         | YES  |     |         | 发布时间    
+ author      | VARCHAR(100)         | YES  |     |         | 作者      
+ pictures    | TEXT(65535)          | YES  |     |         | 图片URL   
+ column_name | VARCHAR(100)         | YES  |     |         | 栏目      
+ insert_time | DATETIME(19)         | YES  |     |         | 插入时间    
+-------------+----------------------+------+-----+---------+---------
+
